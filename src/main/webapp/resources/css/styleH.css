@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+ 
+
+ 
+.top-menu ul li {
+  list-style-type:none;
+  padding: 30px;
+}
+
+
+.top-menu ul li a {
+  font-size: 1.4em;
+  color:white;
+    padding: 0 2em;
+  text-decoration: none;
+    font-weight: 100;
+	font-family: 'Dosis-Medium';
+}
+.top-menu ul li a:hover{
+	color:rgb(240, 16, 16);
+}
+.top-menu ul li:nth-child(3) {
+  margin-right: 13em;
+}
+.header{
+	
+	
+  background-size: cover;
+  min-height: 650px;
+}
+
