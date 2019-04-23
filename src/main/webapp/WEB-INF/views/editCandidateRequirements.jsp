@@ -12,7 +12,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Edit Candidate</title>
-<link rel="stylesheet" href="resources/css/addCandidateRequirement.css">
+<link rel="stylesheet" href="resources/css/editCandidateRequirement.css">
  <style>
 body {
   background-image: url("resources/images/urbkg7.jpg");

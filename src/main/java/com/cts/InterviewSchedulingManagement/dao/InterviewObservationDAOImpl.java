@@ -149,7 +149,7 @@ public class InterviewObservationDAOImpl implements InterviewObservationDAO {
 		e.printStackTrace();
 		// TODO: handle exception
 	}
-	return "false";
+	return "true";
 		
 	 }
 	 

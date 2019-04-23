@@ -12,7 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  
 .top-menu ul li {
   list-style-type:none;
-  padding: 30px;
+  padding: 40px;
+  margin-left:0px;
 }
 
 
@@ -32,8 +33,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .header{
 	
-	
-  background-size: cover;
+
+  padding:40px;
   min-height: 650px;
 }
 

@@ -16,7 +16,10 @@
 
             
 body{
-                
+      background-image:url(resources/images/canbkg.jpg); 
+      background-repeat: no-repeat;
+	background-size:cover;
+              
 	background-color: #f5f5f5;
 
                 margin: 0;
@@ -130,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 
-<div id="home" class="top-header" style="width:500px; height: 100%; position:fixed; z-index:999; background-color: rgba(0,0,0,0.3);
+<div id="home" class="top-header" style="width:510px; height: 100%; position:fixed; z-index:999; background-color: rgba(0,0,0,0.3);
   color: white;margin:0px; padding:0px;">
 	 
 		
@@ -166,7 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--header-->
 
 
-<div class="header" id="head1" style="background-image: url(resources/images/canbkg.jpg) ;background-size: cover;">
+<div class="header" id="head1" >
 		<div class="container-fluid" >
 			<div class="banner-info" 
 			 style="width:100%;padding-top:100px;padding-bottom:10px;padding-left:700px;">

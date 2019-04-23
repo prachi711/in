@@ -232,6 +232,8 @@ public class HRController {
 		
 		Date date1=interviewScheduleService.closingDate(req); //actual date
 		String actualDate = formatter.format(date1);
+		System.out.println("actual date"+actualDate);
+		System.out.println("presentDate "+presentDate);
 		
 		 
 	    	if (presentDate.compareTo(actualDate)== -1)
@@ -436,18 +438,14 @@ public class HRController {
 					  interviewScheduleService.updateRequiredVacancy(candidateRequirement);
 					  modelAndView.setViewName("hrHome");
 				  }
-				 else
-					{
-						 modelAndView.setViewName("error");
-					}
-
+				
 				 //modelAndView.setViewName("hrHome");
 		      }
 			 else
 				{
 					 modelAndView.setViewName("error");
 				}
-					 
+					  
 	   }
 		 
 		 else

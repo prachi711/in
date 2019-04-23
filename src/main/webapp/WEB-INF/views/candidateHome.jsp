@@ -8,7 +8,7 @@
         response.setDateHeader("Expires", 0); //Causes the proxy cache to see the page as "stale"
         response.setHeader("Pragma","no-cache"); //HTTP 1.0 backward compatibility
 %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<<!DOCTYPE HTML>
 <html oncontextmenu="return false;">
 <head>
 
@@ -16,6 +16,10 @@
 
             
 body{
+
+	background-image: url(canbkg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
                 
 	background-color: #f5f5f5;
 
@@ -141,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <ul>
 					<li><a href="CandidateHome.html">HOME</a></li>
 				<!--<li><a class="scroll" href="#head1" >HOME</a></li>-->
-				<li><a class="scroll" href="#head1" >PROFILE</a></li>
+				<!--<li><a class="scroll" href="#head1" >PROFILE</a></li>-->
 				
 				
 				<li><a class="scroll" href="#skill" >INTERVIEW STATUS </a></li>
